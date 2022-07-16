@@ -59,4 +59,30 @@ print("La suma de 2 + 2 es:", 2+2)
 ## Pasar a Local Repo
     git commit -m "Primer commit"
     git commit -m "Agregue info en Readme"
-    
+
+## Para ver las diferencias entre el WD y Local Repo
+    git diff
+
+1) git add .
+2) git status
+3) git commit -m "Agrego info sobre commit y diff"
+
+## Historial para ver las fotos o commits del Repositorio
+    git log
+    git log --oneline
+
+## Vincula Repo Local a Repo Remoto
+    git remote add origin https://github.com/marcelos27/sabado-clase01.git
+
+## Subir los cambios al Repo Remoto
+    git push -u origin master
+
+## Para verificar si tengo el remoto configurado
+    git remote
+    git remote -v
+
+## Subir al repo remoto mis archivos
+    git push -u <repo-remoto> <repo-local>
+    git push -u origin master
+
+#
